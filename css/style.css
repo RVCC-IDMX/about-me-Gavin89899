@@ -1,0 +1,24 @@
+body {
+    background-color: #9e464a;
+    color: #fff5f5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue";
+    font-size: 40pt;
+}
+header {
+    text-align: center;
+    background-color: #eb7f85;
+}
+#hero {
+    text-align: center;
+    background-color: #eb7f85;
+    color: #fff5f5;
+    border: 6px solid #fff5f5;
+}
+main {
+
+    font-family: "abel";
+    font-size: 30pt;
+}
