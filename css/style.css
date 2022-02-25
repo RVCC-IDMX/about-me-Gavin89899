@@ -49,6 +49,7 @@ main {
 #gallery img {
     max-width: 100%;
     border: #eb7f85 solid 10px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, .5);
 }
 #gallery {
     text-align: center;
@@ -68,6 +69,9 @@ article {
     text-align: justify;
     padding: 5px;
     margin: 20px;
-    
+}
+::selection {
+    background-color: #c3ebcd;
+    color: #9e464a;
 
 }
