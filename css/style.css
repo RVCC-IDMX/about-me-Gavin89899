@@ -7,15 +7,25 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Bebas Neue";
     font-size: 40pt;
 }
+h2 {
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
 header {
     text-align: center;
     background-color: #eb7f85;
+}
+header img {
+    max-width: 100%;
 }
 #hero {
     text-align: center;
     background-color: #eb7f85;
     color: #fff5f5;
     border: 6px solid #fff5f5;
+}
+#hero img {
+    max-width: 100%;
 }
 main {
 
@@ -24,6 +34,11 @@ main {
 }
 /*hobbies*/
 
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #hobbies h2 {
     text-align: center;
     border: #eb7f85 solid 5px;
@@ -39,6 +54,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
+    
 }
 #hobbies ul li {
     margin-left: 80px;
@@ -53,6 +69,9 @@ main {
 }
 #gallery {
     text-align: center;
+}
+#gallery * {
+    /*border: 1px solid;*/
 }
 /*article*/
 
@@ -70,8 +89,52 @@ article {
     padding: 5px;
     margin: 20px;
 }
+article p:nth-child(even):first-letter {
+    color: #369e50;
+    font-size: 400%;
+    border: 15px double #369e50;
+    padding-right: 5px;
+    padding-left: 5px;
+    float: left;
+    margin-right: .5ex;
+    background-color: #eb7f85;
+    font-family: Garamond;
+    background-image: radial-gradient(#fff, #eb7f85);
+    box-shadow: 10px 10px 15px black;
+}
 ::selection {
     background-color: #c3ebcd;
     color: #9e464a;
 
 }
+footer {
+    border: #eb7f85 solid 4px;
+    background-color: #fff5f5;
+    padding: 4px;
+    text-align: center;
+    color: #000;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+/*tablet state*/
+@media screen and (min-width: 960px) {
+
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+}
+    
