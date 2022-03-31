@@ -91,20 +91,67 @@
 
             <h2>Article</h2>
 
-            <p>"It would comfort me, my husband!" was all she said; and he began to read when she had got the book ready.</p>
+            <p class="story">"It would comfort me, my husband!" was all she said; and he began to read when she had got the book ready.</p>
 
-            <p>"How can I--how could any one--tell of that strange scene, its solemnity, its gloom, its sadness, its horror; and, withal, its sweetness. Even a sceptic, who can see nothing but a travesty of bitter truth in anything holy or emotional, would have been melted to the heart had he seen that little group of loving and devoted friends kneeling round that stricken and sorrowing lady; or heard the tender passion of her husband's voice, as in tones so broken with emotion that often he had to pause, he read the simple and beautiful service from the Burial of the Dead. I--I cannot go on--words--and--v-voice--f-fail m-me!"</p>
+            <p class="story">"How can I--how could any one--tell of that strange scene, its solemnity, its gloom, its sadness, its horror; and, withal, its sweetness. Even a sceptic, who can see nothing but a travesty of bitter truth in anything holy or emotional, would have been melted to the heart had he seen that little group of loving and devoted friends kneeling round that stricken and sorrowing lady; or heard the tender passion of her husband's voice, as in tones so broken with emotion that often he had to pause, he read the simple and beautiful service from the Burial of the Dead. I--I cannot go on--words--and--v-voice--f-fail m-me!"</p>
 
-            <p>She was right in her instinct. Strange as it all was, bizarre as it may hereafter seem even to us who felt its potent influence at the time, it comforted us much; and the silence, which showed Mrs. Harker's coming relapse from her freedom of soul, did not seem so full of despair to any of us as we had dreaded. 15 October, Varna.--We left Charing Cross on the morning of the 12th, got to Paris the same night, and took the places secured for us in the Orient Express. We travelled night and day, arriving here at about five o'clock. Lord Godalming went to the Consulate to see if any telegram had arrived for him, whilst the rest of us came on to this hotel--"the Odessus." The journey may have had incidents; I was, however, too eager to get on, to care for them. Until the Czarina Catherine comes into port there will be no interest for me in anything in the wide world. Thank God! Mina is well, and looks to be getting stronger; her colour is coming back. She sleeps a great deal; throughout the journey she slept nearly all the time. Before sunrise and sunset, however, she is very wakeful and alert; and it has become a habit for Van Helsing to hypnotise her at such times. At first, some effort was needed, and he had to make many passes; but now, she seems to yield at once, as if by habit, and scarcely any action is needed. He seems to have power at these particular moments to simply will, and her thoughts obey him. He always asks her what she can see and hear. She answers to the first:--</p>
+            <p class="story">She was right in her instinct. Strange as it all was, bizarre as it may hereafter seem even to us who felt its potent influence at the time, it comforted us much; and the silence, which showed Mrs. Harker's coming relapse from her freedom of soul, did not seem so full of despair to any of us as we had dreaded. 15 October, Varna.--We left Charing Cross on the morning of the 12th, got to Paris the same night, and took the places secured for us in the Orient Express. We travelled night and day, arriving here at about five o'clock. Lord Godalming went to the Consulate to see if any telegram had arrived for him, whilst the rest of us came on to this hotel--"the Odessus." The journey may have had incidents; I was, however, too eager to get on, to care for them. Until the Czarina Catherine comes into port there will be no interest for me in anything in the wide world. Thank God! Mina is well, and looks to be getting stronger; her colour is coming back. She sleeps a great deal; throughout the journey she slept nearly all the time. Before sunrise and sunset, however, she is very wakeful and alert; and it has become a habit for Van Helsing to hypnotise her at such times. At first, some effort was needed, and he had to make many passes; but now, she seems to yield at once, as if by habit, and scarcely any action is needed. He seems to have power at these particular moments to simply will, and her thoughts obey him. He always asks her what she can see and hear. She answers to the first:--</p>
 
             <p>"Nothing; all is dark." And to the second:--</p>
         </article>
-    </main>
 
+    <section id="contact">
+     
+        <h2>Reach Out to Me</h2>
+
+        <form name="contact" method="post" data-netlifly="true">
+
+            <fieldset>
+
+                <legend>Contact Form</legend>
+
+                <label for="name">Name:</label>
+                <input id="name" name="name" type="text" required="true"><br>
+
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" required="true"><br>
+
+                <label for="phone">Phone Number (Optional):</label>
+                <input id="phone" name="phone" type="tel"><br> 
+
+                <label for="phone_type">Phone Type:</label>
+                <select id="phone_type" name="phone_type">
+                    <option value="H">Home</option>
+                    <option value="C">Cell</option>
+                    <option value="W">Work</option>
+                </select><br>
+
+                <label for="message">Message:</label>
+                <textarea></textarea>
+
+                <fieldset>
+                    <legend>Would you like a reply?</legend>
+                    <ul>
+                        <li>
+                            <input id="yes_reply" name="reply" type="radio" value="Yes"><label for="yes_reply">Yes</label>
+                        </li>
+                        <li>
+                            <input id="no_reply" name="reply" type="radio" value="No" checked="true"><label for="no_reply">No</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <input type="submit" value="Send" required="true">
+            </fieldset>
+    </form>
+</section>
+
+</main>
     <footer>
 
         &copy; Gavin Corley
 
     </footer>
+
 </body>
 </html>
