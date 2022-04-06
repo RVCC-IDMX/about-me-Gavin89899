@@ -73,6 +73,19 @@ main {
 #gallery * {
     /*border: 1px solid;*/
 }
+
+iframe {
+    border: #eb7f85 solid 8px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .5);
+    max-width: 75%;
+}
+#iframe {
+    margin: auto;
+    text-align: center;
+}
+#iframe-header {
+    border-top: dotted #eb7f85 2px;
+}
 /*article*/
 
 /* article {
@@ -146,6 +159,8 @@ figure {
         font-size: 2rem;
         margin-left: 1rem;
     }
-
+    iframe {
+        height: 500px;
+    }
 }
     
