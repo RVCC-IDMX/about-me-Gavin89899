@@ -32,6 +32,9 @@ main {
     font-family: "abel";
     font-size: 30pt;
 }
+main input, main select {
+    font-size: 20pt;
+}
 /*hobbies*/
 
 #hobbies {
@@ -140,6 +143,30 @@ figure {
     display: grid;
     grid-template-columns: 2fr 1fr;
 
+}
+#form-header {
+    
+}
+#contact {
+    margin: 10px;
+}
+input {
+    background-color: #fff5f5;
+    color: #9e464a;
+}
+
+#message {
+    font-size: 20pt;
+    color: #eb7f85;
+}
+#send {
+    margin: 4px;
+    height: 50px;
+    width: 100px;
+}
+#send:hover {
+    background-color: #c3ebcd;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
 }
 
 /*tablet state*/
