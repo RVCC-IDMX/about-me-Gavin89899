@@ -106,7 +106,7 @@
 
     <section id="contact">
      
-        <h2>Reach Out to Me</h2>
+        <h2 id="fomr-header">Reach Out to Me</h2>
 
         <form name="contact" method="post" data-netlify="true">
 
@@ -123,7 +123,7 @@
                 <label for="phone">Phone Number (Optional):</label>
                 <input id="phone" name="phone" type="tel"><br> 
 
-                <label for="phone_type">Phone Type:</label>
+                <label id="phone-select" for="phone_type">Phone Type:</label>
                 <select id="phone_type" name="phone_type">
                     <option value="H">Home</option>
                     <option value="C">Cell</option>
@@ -131,9 +131,9 @@
                 </select><br>
 
                 <label for="message" required="true">Message:</label>
-                <textarea></textarea>
+                <textarea id="message"></textarea>
 
-                <fieldset>
+                <fieldset id="reply">
                     <legend>Would you like a reply?</legend>
                     <ul>
                         <li>
@@ -145,7 +145,7 @@
                     </ul>
                 </fieldset>
 
-                <input type="submit" value="Send" required="true">
+                <input id="send" type="submit" value="Send" required="true">
             </fieldset>
         </form>
     </section>

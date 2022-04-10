@@ -147,8 +147,27 @@ figure {
 #form-header {
     
 }
+fieldset {
+    background-color: #eb7f85;
+    border: #369e50 5px solid;
+    display: grid;
+    max-width: 100%;
+}
+fieldset li {
+    list-style: none;
+}
+#reply {
+    margin: 15px;
+    border-width: 50%;
+}
+legend {
+    border: #369e50 5px solid;
+    background-color: #eb7f85;
+    text-align: center;
+}
 #contact {
     margin: 10px;
+    padding: 5px;
 }
 input {
     background-color: #fff5f5;
@@ -156,13 +175,18 @@ input {
 }
 
 #message {
-    font-size: 20pt;
-    color: #eb7f85;
+    font-size: 18pt;
+    color: #369e50;
+    
 }
 #send {
-    margin: 4px;
     height: 50px;
-    width: 100px;
+    width: 150px;
+    border: #369e50 5px solid;
+    border-radius: 15px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 #send:hover {
     background-color: #c3ebcd;
