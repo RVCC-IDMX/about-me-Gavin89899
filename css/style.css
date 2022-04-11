@@ -145,7 +145,7 @@ figure {
 
 }
 #form-header {
-    
+    border: #369e50 2px double;
 }
 fieldset {
     background-color: #eb7f85;
