@@ -18,6 +18,10 @@ header {
 header img {
     max-width: 100%;
 }
+.navbar-links ul, .navbar-links a {
+    list-style: none;
+    text-decoration: none;
+}
 #hero {
     text-align: center;
     background-color: #eb7f85;
@@ -138,7 +142,14 @@ footer {
     text-align: center;
     color: #000;
 }
+.footer-link {
+    text-decoration: none;
+}
 
+.contact {
+    max-width:100%;
+    padding:0px;
+}
 figure {
     display: grid;
     grid-template-columns: 2fr 1fr;
