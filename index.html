@@ -15,20 +15,30 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">    
+    <link href="css/nav.css" rel="stylesheet">
 
 </head>
 <body>
  <!--the body element contains all content shown to a user-->  
 
     <header>
-
-        <!--logo and page title-->
-        <img src="img/logo-96X96.svg" alt="blue origami bird">
-        <h1>Web Dev 1</h1>
-
+        <nav id="nav">
+            <div class="logo">
+                <!--logo and page title-->
+                <img src="img/logo-96X96.svg" alt="blue origami bird">
+                <h1 class="nav-title" >Web Dev 1 - Online!</h1>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#bio" class="nav-links">Bio</a></li>
+                    <li><a href="#gallery" class="nav-links">Gallery</a></li>
+                    <li><a href="#blog" class="nav-links">Blog</a></li>
+                    <li><a href="#contact" class="nav-links">Contact Form</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-
     <main>
         <!--holds all the important content-->
         <section id="hero">
@@ -92,9 +102,9 @@
             <h2 id="iframe-header">My Visit to Woodstock</h2>
             <iframe width="1000" height="200" src="https://www.youtube.com/embed/barpNFUpLPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-        <article>
+        <article id="blog">
 
-            <h2>Article</h2>
+            <h2>Blog</h2>
 
             <p class="story">"It would comfort me, my husband!" was all she said; and he began to read when she had got the book ready.</p>
 
@@ -154,7 +164,7 @@
 </main>
     <footer>
 
-        &copy; Gavin Corley
+        <a href="#nav" class="footer-link">&copy; Gavin Corley</a>
 
     </footer>
 
