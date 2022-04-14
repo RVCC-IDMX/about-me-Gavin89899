@@ -35,10 +35,11 @@ header img {
     text-align: center;
     background-color: #eb7f85;
     color: #fff5f5;
-    border: 6px solid #fff5f5;
+    border: 6px solid #fff5f5;  
 }
 #hero img {
     max-width: 100%;
+    margin-top: 8px;
 }
 main {
 
@@ -47,6 +48,10 @@ main {
 }
 main input, main select {
     font-size: 20pt;
+}
+#bio {
+    display: grid;
+    grid-template-columns: auto;
 }
 /*hobbies*/
 
@@ -73,7 +78,7 @@ main input, main select {
     
 }
 #hobbies ul li {
-    margin-left: 80px;
+    
 
 }
 /*photo gallery*/
@@ -153,6 +158,11 @@ footer {
 }
 .footer-link {
     text-decoration: none;
+    color: #9e464a;
+    font-size: 16pt;
+}
+.footer-link:hover {
+    font-weight: bold;
 }
 
 .contact {
@@ -234,4 +244,20 @@ input {
         height: 500px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
