@@ -18,20 +18,23 @@
 
     <link href="css/style.css" rel="stylesheet">    
     <link href="css/nav.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
 
 </head>
 <body>
  <!--the body element contains all content shown to a user-->  
 
-    <header>
+    <header class="header">
         <nav id="nav">
             <div class="logo">
                 <!--logo and page title-->
                 <img src="img/favicon-logo.svg" alt="Letters G and C">
                 <h1 class="nav-title" >Web Dev 1</h1>
             </div>
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
             <div class="navbar-links">
-                <ul>
+                <ul class="menu">
                     <li><a href="#bio" class="nav-links">Bio</a></li>
                     <li><a href="#gallery" class="nav-links">Gallery</a></li>
                     <li><a href="#blog" class="nav-links">Blog</a></li>

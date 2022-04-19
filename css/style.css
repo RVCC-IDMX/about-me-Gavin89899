@@ -223,6 +223,7 @@ input {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
 }
 
+
 /*tablet state*/
 @media screen and (min-width: 960px) {
 
@@ -244,8 +245,56 @@ input {
         height: 500px;
     }
 }
+/*
+@media screen and (min-width: 1024px) {
+
+    body {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "hero bio"
+        "hobbies hobbies"
+        "gallery gallery"
+        "iframe iframe"
+        "blog blog"
+        "contact contact"
+        "footer footer";
+
+    }
 
 
+    section #hero {
+        grid-area: hero;
+    }
+    section #bio {
+        grid-area: bio;
+    }
+    #hobbies {
+        grid-area: hobbies;
+    }
+    #gallery {
+        grid-area: gallery;
+    }
+    #iframe {
+        grid-area: iframe;
+    }
+    #blog {
+        grid-area: blog;
+    }
+    #contact {
+        grid-area: contact;
+    }
+    #footer {
+        grid-area: footer;
+    }
+}
+*/
 
 
 
