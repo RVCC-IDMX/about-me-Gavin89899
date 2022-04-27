@@ -17,6 +17,9 @@ header {
 header img {
     max-width: 100%;
 }
+.nav-title:hover {
+    color: #c3ebcd;
+}
 /* .navbar-links ul, .navbar-links a {
     list-style: none;
     text-decoration: none;
@@ -88,6 +91,10 @@ main input, main select {
     border: #eb7f85 solid 10px;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, .5);
 }
+#gallery img:hover {
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .5);
+    border: #fff solid 10px;
+}
 #gallery {
     text-align: center;
 }
@@ -97,8 +104,12 @@ main input, main select {
 
 iframe {
     border: #eb7f85 solid 8px;
-    box-shadow: 15px 15px 10px rgba(0, 0, 0, .5);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, .5);
     max-width: 75%;
+}
+iframe:hover {
+    border: #fff5f5 solid 8px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .5);
 }
 #iframe {
     margin: auto;
@@ -245,7 +256,7 @@ input {
         height: 500px;
     }
 }
-/*
+    
 @media screen and (min-width: 1024px) {
 
     body {
