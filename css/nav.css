@@ -103,6 +103,14 @@ main {
 #toggle:checked ~ .navbar-links {
     display:block;
 }
+#nav-button {
+    height: 40px;
+    width: 40px;
+    display: block;
+    position:absolute;
+    right: 25px;
+    top: 45px;
+}
 
 /* 
 media query for non-mobile nav bar
@@ -124,6 +132,9 @@ such that no text wraps
     #nav ul {
         display: flex;
         justify-content: space-between;
+    }
+    #nav-button {
+        display: none;
     }
 }
 

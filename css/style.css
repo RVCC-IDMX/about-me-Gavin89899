@@ -173,8 +173,8 @@ article {
 }
 article p:nth-child(even):first-letter {
     color: #369e50;
-    font-size: 400%;
-    border: 15px double #369e50;
+    font-size: 250%;
+    border: 10px double #369e50;
     padding-right: 5px;
     padding-left: 5px;
     float: left;
@@ -297,10 +297,9 @@ footer {
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
     }
-    #gallery img {
-        
+    #gallery figure {
+       display: block;
     }
     #gallery h2 {
         grid-column: 1/-1;
