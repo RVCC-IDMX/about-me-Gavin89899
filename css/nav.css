@@ -85,7 +85,24 @@ main {
 }
 
 /*hamburger menu*/
-
+#toggle:checked ~ #nav-button #closed {
+    display:none;
+}
+#opened {
+    display:none;
+}
+#toggle:checked ~ #nav-button #opened {
+    display:inherit;
+}
+#toggle {
+    display:none;
+}
+.navbar-links {
+    display:none;
+}
+#toggle:checked ~ .navbar-links {
+    display:block;
+}
 
 /* 
 media query for non-mobile nav bar
