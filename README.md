@@ -17,5 +17,6 @@ I chose this color scheme because I thought that the colors were very pleasant t
 - Fonts (https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap)(https://fonts.googleapis.com/css2?family=Abel&display=swap)
 - HTML inqeuries (https://www.w3schools.com/tags/default.asp)
 - Color Palette (https://coolors.co/9e464a-eb7f85-fff5f5-c3ebcd-369e50)(https://color.adobe.com/create/color-wheel)
+- Blog Article (https://extension.umaine.edu/plugged-in/technology-marketing-communications/web/tips-for-web-managers/embed-map/)(https://blog.duda.co/responsive-google-maps-for-your-website)(https://www.businessinsider.com/how-to-embed-google-map)
 # License:
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

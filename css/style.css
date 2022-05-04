@@ -147,6 +147,14 @@ iframe:hover {
     border-top: dotted #eb7f85 5px;
 }
 
+/*google map*/
+
+#map {
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+}
+
 /*blog section*/
 
 /* article {
@@ -171,7 +179,7 @@ article {
     padding: 5px;
     margin: 20px;
 }
-article p:nth-child(even):first-letter {
+article p:first-letter {
     color: #369e50;
     font-size: 250%;
     border: 10px double #369e50;
@@ -248,6 +256,11 @@ footer {
     padding: 4px;
     text-align: center;
     color: #000;
+}
+.github {
+    text-decoration: none;
+    font-size: 14pt;
+    color: #9e464a;
 }
 .footer-link {
     text-decoration: none;
