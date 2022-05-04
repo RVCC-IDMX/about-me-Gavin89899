@@ -71,6 +71,9 @@ header img {
 #hero img {
     max-width: 100%;
     margin-top: 8px;
+    border: #c3ebcd outset 5px;
+    border-radius: 100px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, .5);
 }
 
 /*bio section*/
